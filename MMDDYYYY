@@ -1,0 +1,9 @@
+x=input("Enter the data as MMDDYYYY:  ")
+mm=int(x[ :2])
+dd=x[2:4]
+yyyy=x[4:]
+months=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+print(months[mm-1],dd,yyyy)
+
+
+
