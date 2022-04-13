@@ -1,0 +1,9 @@
+n=int(input("Enter the size: "))
+f=0
+s=1
+print(f,s ,  end=' ')
+for i in range (0,n-2):
+    t=s+f
+    print(t,end=' ')
+    f=s
+    s=t
