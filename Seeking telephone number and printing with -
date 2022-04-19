@@ -1,0 +1,8 @@
+n=input("Enter a 10 digit number :  ")
+m=n[0:3]
+o=n[3:6]
+p=n[6:10]
+if n.isnumeric():
+    print("The phone number is : ",m,"-",o,"-",p, sep='')
+else:
+    print("The number is not numeric :( ")
