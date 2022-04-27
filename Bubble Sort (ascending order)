@@ -1,0 +1,10 @@
+l=[]
+n=int(input("Enter the number of elements:  "))
+for i in range (n):
+    t=int(input("Enter the number: "))
+    l.append(t)
+for i in range(n):
+    for j in range(0,n-1-i):
+        if l[j]>l[j+1]:
+            l[j],l[j+1]=l[j+1],l[j]
+print("The bubble sorted list is : ",l)
