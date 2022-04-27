@@ -1,0 +1,18 @@
+l=[]
+n=int(input("Enter the number of elements:  "))
+for i in range (n):
+    t=int(input("Enter the number: "))
+    l.append(t)
+e=int(input("Enter item to be searched: "))
+b=0
+lst=len(l)-1
+while(b<=lst):
+    mid=int(b+lst/2)
+    if (e==l[mid]):
+        print("item found at:",mid,"position")
+        break
+    elif(e>l[mid]):
+        b=mid+1
+    else:
+        lst=mid-1
+        
