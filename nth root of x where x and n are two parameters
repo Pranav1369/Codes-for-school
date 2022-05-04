@@ -1,0 +1,7 @@
+def fn(x,n=2):
+    v=x**(1/n)
+    return v
+x1=int(input("Enter the value of x : "))
+print("the nth root without value of n is : ",fn(x1))
+n1=int(input("Enter the value of n : "))
+print("the nth root with value of n is: ",fn(x1,n1))
