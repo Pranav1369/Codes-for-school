@@ -1,0 +1,9 @@
+def find_list(list1,v):
+    if v in list1:
+        t=list1.index(v)
+        print(v,"is there in the list at index ",t)
+    else:
+        print("-1")
+l=eval(input("Enter the list: "))
+v1=int(input("Enter the value: "))
+find_list(l,v1)
