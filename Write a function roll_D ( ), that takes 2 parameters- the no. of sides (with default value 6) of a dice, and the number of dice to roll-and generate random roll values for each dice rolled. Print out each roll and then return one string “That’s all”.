@@ -1,0 +1,8 @@
+import random
+def roll_dice(sides=6,dice=1):
+     for i in range(dice):
+         print(random.randint(1, sides))
+     print("thats all")
+t=int(input("no. of sides:"))
+r=int(input("Enter number of dices:"))
+m=roll_dice(t,r)
