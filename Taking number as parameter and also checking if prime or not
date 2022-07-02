@@ -1,0 +1,11 @@
+def factors(num):
+     ch=[]
+     for i in range(1,num+1) :
+          if num%i == 0:
+               ch.append(i)
+     return ch
+n=int(input("Enter number:"))
+v=factors(n)
+if len(v)==2:
+     print("prime")
+print("List of factor is ,",v)
